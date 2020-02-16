@@ -1,0 +1,15 @@
+[package]
+name = "gnoi"
+version = "0.0.0"
+authors = ["Kunihiro Ishiguro <kunihiro@zebra.dev"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/zebra-rs/gnoi"
+description = "gRPC Network Operations Interface - gNOI."
+edition = "2018"
+build = "build.rs"
+
+[build-dependencies]
+tonic-build = "=0.1.1"
+
+[dependencies]
+tonic = "0.1.1"
